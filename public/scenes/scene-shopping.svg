@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="Pasar tradisional yang ramai dengan pedagang, sayuran, buah, timbangan, dan pembeli">
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f2d8aa"/><stop offset="1" stop-color="#bd8150"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#c78c56"/><stop offset="1" stop-color="#68452f"/></linearGradient>
+ <linearGradient id="awning" x2="0" y2="1"><stop stop-color="#9c3f2f"/><stop offset="1" stop-color="#542b27"/></linearGradient>
+ <linearGradient id="wood" x2="0" y2="1"><stop stop-color="#9b633b"/><stop offset="1" stop-color="#56351f"/></linearGradient>
+ <linearGradient id="metal" x2="0" y2="1"><stop stop-color="#f2e4c8"/><stop offset=".5" stop-color="#9c9d91"/><stop offset="1" stop-color="#555c58"/></linearGradient>
+ <radialGradient id="light"><stop stop-color="#fff5cf" stop-opacity=".8"/><stop offset="1" stop-color="#f7c47b" stop-opacity="0"/></radialGradient>
+ <pattern id="tiles" width="72" height="44" patternUnits="userSpaceOnUse"><path d="M0 0H72M0 0V44" stroke="#f2c68c" stroke-opacity=".18" stroke-width="2"/></pattern>
+ <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1024" height="576" fill="url(#wall)"/>
+<rect width="1024" height="360" fill="url(#light)"/>
+<path d="M0 0H1024V92L890 122 700 90 512 120 300 92 0 130Z" fill="#563b2d"/>
+<path d="M0 88L1024 75V113L0 150Z" fill="#352a25" opacity=".75"/>
+<path d="M0 122L1024 110V145L0 176Z" fill="#8d5837"/>
+<path d="M0 0L210 0 280 180 0 240Z" fill="#56392b" opacity=".55"/>
+<path d="M1024 0H830L760 190 1024 245Z" fill="#52392b" opacity=".5"/>
+<!-- distant market passage -->
+<path d="M360 140H670V390H360Z" fill="#d5a56f"/>
+<path d="M420 140H610V360H420Z" fill="#f1d2a0"/>
+<path d="M448 170H582V360H448Z" fill="#68432f"/>
+<path d="M468 190H562V360H468Z" fill="#d4a16a"/>
+<path d="M0 390L1024 370V576H0Z" fill="url(#floor)"/>
+<path d="M0 390L1024 370V576H0Z" fill="url(#tiles)"/>
+<path d="M0 468L1024 442M0 530L1024 500" stroke="#e3b17b" stroke-opacity=".25" stroke-width="3"/>
+<!-- left stall -->
+<path d="M0 140H330V335H0Z" fill="#5e3928"/>
+<path d="M0 132L330 118 356 178 0 198Z" fill="url(#awning)"/>
+<path d="M0 178L356 158 350 184 0 212Z" fill="#d69a52"/>
+<path d="M0 190H330V220H0Z" fill="#f0c477" opacity=".25"/>
+<path d="M20 225H315V345H20Z" fill="url(#wood)"/>
+<path d="M15 225H320V246H15Z" fill="#bd8250"/>
+<g fill="#d49b55"><path d="M30 250h78v8H30zM125 250h78v8h-78zM220 250h78v8h-78z"/></g>
+<!-- produce crates and baskets -->
+<g stroke="#5c3a24" stroke-width="5">
+ <path d="M25 332h115v82H25z" fill="#a86d3c"/><path d="M25 353h115M25 378h115" fill="none"/>
+ <path d="M150 338h112v75H150z" fill="#8d5a32"/><path d="M150 360h112M150 385h112" fill="none"/>
+</g>
+<g fill="#4d8a43"><ellipse cx="54" cy="329" rx="25" ry="17"/><ellipse cx="82" cy="322" rx="26" ry="19"/><ellipse cx="112" cy="332" rx="22" ry="15"/><path d="M38 332q8-30 22-20q-5 18-22 20M75 326q13-30 27-16q-12 20-27 16M101 333q16-25 27-8q-13 17-27 8"/></g>
+<g fill="#df6b36"><circle cx="174" cy="332" r="18"/><circle cx="212" cy="333" r="17"/><circle cx="244" cy="341" r="16"/><path d="M171 313q4-9 12-5M208 314q6-8 12-4" fill="none" stroke="#456b35" stroke-width="4"/></g>
+<g fill="#f2c64e"><ellipse cx="38" cy="315" rx="10" ry="16"/><ellipse cx="62" cy="310" rx="10" ry="16"/><ellipse cx="91" cy="312" rx="10" ry="16"/></g>
+<!-- hanging lanterns and shopwares -->
+<g stroke="#4b3024" stroke-width="4" fill="none"><path d="M70 0v82M205 0v96M790 0v80"/></g>
+<g><ellipse cx="70" cy="93" rx="27" ry="38" fill="#f4bf66" opacity=".22"/><path d="M52 70h36l-5 44H57Z" fill="#9d5934" stroke="#f4ca80" stroke-width="3"/><path d="M60 77h20v29H60Z" fill="#ffdb91"/><ellipse cx="205" cy="109" rx="30" ry="40" fill="#f4bf66" opacity=".2"/><path d="M186 83h38l-6 48h-26Z" fill="#8e4d31" stroke="#f4ca80" stroke-width="3"/><path d="M194 91h22v31h-22Z" fill="#ffe0a0"/></g>
+<!-- right stall -->
+<path d="M710 145H1024V360H710Z" fill="#573a2c"/>
+<path d="M690 150L1024 118V185L690 208Z" fill="#4f2f2a"/>
+<path d="M710 185L1024 155V178L710 211Z" fill="#d6a05c"/>
+<path d="M730 225H1024V350H730Z" fill="#7e4d30"/>
+<path d="M730 225H1024V245H730Z" fill="#bd8550"/>
+<!-- hanging textiles -->
+<g>
+ <path d="M755 184q25-12 50 0v108h-50Z" fill="#42616b"/><path d="M810 180q25-8 50 0v112h-50Z" fill="#a13f36"/><path d="M865 175q25-10 50 0v117h-50Z" fill="#d2a34e"/><path d="M920 170q25-8 50 0v122h-50Z" fill="#56724c"/>
+ <path d="M755 205h50M810 210h50M865 205h50M920 202h50" stroke="#f3d59b" stroke-width="4" opacity=".7"/>
+</g>
+<!-- target discount tag on textile rack -->
+<g transform="translate(955 250) rotate(8)"><path d="M0 0h44v49L22 64 0 49Z" fill="#f0c34f" stroke="#7b4829" stroke-width="4"/><path d="M9 12h26M9 23h26M9 34h18" stroke="#9a4c30" stroke-width="4" stroke-linecap="round"/><circle cx="22" cy="7" r="3" fill="#71432a"/></g>
+<!-- fruit bowls and jars -->
+<g><path d="M755 330q48 45 96 0Z" fill="#d7a25f" stroke="#533a2a" stroke-width="4"/><circle cx="775" cy="322" r="16" fill="#d94e32"/><circle cx="805" cy="315" r="18" fill="#e7b83d"/><circle cx="835" cy="322" r="15" fill="#6e9b46"/><path d="M875 292h35v56h-35z" fill="#a9c6ae" stroke="#513c2d" stroke-width="4"/><path d="M881 281h23v12h-23z" fill="#e8d4aa"/><path d="M928 305h40v42h-40z" fill="#b66c43" stroke="#513c2d" stroke-width="4"/></g>
+<!-- target scale on counter -->
+<g transform="translate(690 350)"><ellipse cx="0" cy="47" rx="58" ry="10" fill="#2f271f" opacity=".25"/><path d="M-35 5h70l-9 43h-52Z" fill="url(#metal)" stroke="#4d514c" stroke-width="4"/><path d="M-28 0q28-18 56 0l-5 12h-46Z" fill="#d9d7c9" stroke="#575d57" stroke-width="4"/><rect x="-17" y="18" width="34" height="18" rx="4" fill="#283c3d"/><path d="M-9 27h18" stroke="#a9dfb5" stroke-width="3"/><path d="M-45 5q45-22 90 0" fill="none" stroke="#c6c5b9" stroke-width="7"/></g>
+<!-- target price card near counter -->
+<g transform="translate(392 308) rotate(-4)"><path d="M0 0h110v92H0Z" fill="#263b34" stroke="#d8b47a" stroke-width="7"/><path d="M13 18h82M13 35h64" stroke="#f4e4bc" stroke-width="4"/><text x="55" y="70" font-family="Arial,sans-serif" font-size="25" text-anchor="middle" fill="#f7d27b" font-weight="700">100K</text></g>
+<!-- baskets and sacks -->
+<g><path d="M865 390q38-30 76 0l-8 50h-60Z" fill="#b27a42" stroke="#5d3c27" stroke-width="5"/><path d="M872 402h61M868 418h68" stroke="#e1b16e" stroke-width="4"/><path d="M940 395q35-20 66 0l-8 55h-53Z" fill="#8d6c48" stroke="#513d2b" stroke-width="4"/></g>
+<!-- shoppers / buyer in foreground -->
+<g transform="translate(520 340)">
+ <ellipse cx="0" cy="174" rx="55" ry="12" fill="#34251e" opacity=".25"/>
+ <path d="M-30 55q-42 12-38 82l10 52h113l-8-91q-8-42-38-43Z" fill="#3b5360"/>
+ <path d="M-22 56q20-12 39 0l14 65h-70Z" fill="#f0d0a8"/>
+ <circle cx="-2" cy="30" r="27" fill="#b97f5d"/><path d="M-29 25q3-33 32-30q27 2 28 28l-10-9q-19 7-50 11Z" fill="#352b27"/>
+ <path d="M-52 84q-22 34-5 63l18-5 8-48M37 83q26 18 27 52l-16 8-19-39" fill="#b97f5d"/>
+ <path d="M-55 128l-18 45h39l12-38" fill="#d8b36b" stroke="#77502f" stroke-width="4"/>
+ <path d="M-18 189h28l-4 58h-26Z" fill="#4d3428"/><path d="M20 189h28l9 58H27Z" fill="#4d3428"/>
+ <path d="M-18 246h-28v8h40M50 246h28v8H44" fill="#2c2926"/>
+ <path d="M-55 94q-34 5-39 38" fill="none" stroke="#b97f5d" stroke-width="13" stroke-linecap="round"/>
+</g>
+<!-- second customer and vendor -->
+<g transform="translate(330 340)"><circle cx="0" cy="26" r="22" fill="#a96f50"/><path d="M-23 24q4-27 27-24q18 2 22 20Z" fill="#332923"/><path d="M-34 54q34-20 67 0l17 111h-98Z" fill="#7b5145"/><path d="M-28 165h25v78h-25M8 165h25v78H8" fill="#342b27"/><path d="M-30 86l-35 43 12 12 46-32M28 86l28 37-10 13-36-31" fill="none" stroke="#a96f50" stroke-width="13" stroke-linecap="round"/></g>
+<g transform="translate(120 255)"><circle cx="0" cy="0" r="18" fill="#b77d5a"/><path d="M-20 0q0-25 23-24q20 2 20 23Z" fill="#352923"/><path d="M-28 25q28-14 56 0l10 72h-76Z" fill="#d0a34e"/><path d="M-17 94h17v56h-17M9 94h17v56H9" fill="#463127"/></g>
+<!-- small hanging sign and crates -->
+<path d="M25 120L250 110" stroke="#332820" stroke-width="9"/><path d="M52 110v-28h130v28" fill="#79432c" stroke="#3c2c22" stroke-width="4"/><text x="117" y="102" font-family="Arial,sans-serif" font-size="16" text-anchor="middle" fill="#f4d6a0" letter-spacing="3">FRESH GOODS</text>
+<g opacity=".8"><path d="M0 430h160v20H0zM830 480h194v18H830z" fill="#4d3324"/><path d="M15 455h120M845 505h150" stroke="#d4a06a" stroke-width="3"/></g>
+<rect width="1024" height="576" fill="none" stroke="#3c2a20" stroke-width="18" opacity=".16"/>
+</svg>

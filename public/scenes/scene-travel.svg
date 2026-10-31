@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="Terminal bandara dengan penumpang, loket, papan keberangkatan, pesawat, dan bagasi">
+<defs>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#a9d2e0"/><stop offset="1" stop-color="#f6c48e"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#c6d7d7"/><stop offset="1" stop-color="#697f87"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#315a70"/><stop offset="1" stop-color="#172f43"/></linearGradient>
+ <linearGradient id="suitcase" x2="0" y2="1"><stop stop-color="#d18c4f"/><stop offset="1" stop-color="#75462e"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="1024" height="576" fill="#dce9e7"/>
+<!-- glass wall -->
+<rect x="0" y="0" width="1024" height="360" fill="url(#glass)"/>
+<path d="M0 0H1024V42H0Z" fill="#f5f6f1"/>
+<path d="M55 0v360M260 0v360M465 0v360M670 0v360M875 0v360" stroke="#526d79" stroke-width="14"/>
+<path d="M0 180H1024" stroke="#526d79" stroke-width="10"/>
+<!-- outside airport apron and airplane -->
+<path d="M0 292q240-32 470 0t554-5v68H0Z" fill="#7b9b9f"/>
+<path d="M500 270l180-34 60 8 80-25 15 14-76 24-15 20-18 1-17-15-170 33Z" fill="#f3f5f1" stroke="#607c86" stroke-width="4"/>
+<path d="M690 243l60-92 25 5-18 91M720 264l85 45-20 8-91-29" fill="#dce5e4" stroke="#607c86" stroke-width="4"/>
+<path d="M500 270l-55-38-5 14 35 39" fill="#f4f5f0" stroke="#607c86" stroke-width="4"/>
+<circle cx="640" cy="303" r="14" fill="#283e4b"/><circle cx="770" cy="294" r="14" fill="#283e4b"/>
+<!-- floor -->
+<path d="M0 360H1024V576H0Z" fill="url(#floor)"/>
+<path d="M0 410H1024M0 480H1024M0 548H1024M160 360L90 576M370 360L330 576M610 360L640 576M820 360L910 576" stroke="#e7f0ec" stroke-opacity=".32" stroke-width="3"/>
+<!-- check in counters -->
+<g transform="translate(0 280)"><path d="M0 70h320v100H0Z" fill="#35586a"/><path d="M0 70h320v18H0Z" fill="#e7f0ec"/><path d="M30 100h70v34H30zM130 100h70v34h-70zM230 100h65v34h-65z" fill="#9ab5b6"/><path d="M18 170h18v76H18M285 170h18v76h-18" fill="#273f4c"/></g>
+<g transform="translate(740 300)"><path d="M0 60h284v98H0Z" fill="#25475b"/><path d="M0 60h284v17H0Z" fill="#e7f0ec"/><rect x="20" y="92" width="75" height="39" rx="4" fill="#8db4bb"/><rect x="112" y="92" width="75" height="39" rx="4" fill="#8db4bb"/><rect x="204" y="92" width="62" height="39" rx="4" fill="#8db4bb"/></g>
+<!-- departure board -->
+<g transform="translate(80 72)"><rect width="290" height="138" rx="9" fill="url(#blue)" stroke="#d5e3e0" stroke-width="8"/><text x="22" y="31" font-family="Arial" font-size="18" fill="#f5d58e" font-weight="700" letter-spacing="2">FLIGHT INFORMATION</text><path d="M18 45h254" stroke="#66899a" stroke-width="2"/><g font-family="monospace" font-size="15" fill="#e8f2e9"><text x="22" y="70">JAKARTA</text><text x="220" y="70">08:45</text><text x="22" y="96">SURABAYA</text><text x="220" y="96">09:20</text><text x="22" y="122">DENPASAR</text><text x="220" y="122">10:10</text></g></g>
+<!-- target airport terminal sign -->
+<g transform="translate(695 92)"><rect width="270" height="80" rx="8" fill="#173e4d" stroke="#f3f4e9" stroke-width="7"/><path d="M28 20h38v38H28Z" fill="#f2c64f"/><path d="M47 25v27M34 39h26" stroke="#173e4d" stroke-width="5"/><text x="82" y="50" font-family="Arial" font-size="26" font-weight="700" fill="#f7f5e9">AIRPORT</text><path d="M230 40h22m-10-10 10 10-10 10" fill="none" stroke="#f4d36d" stroke-width="4"/></g>
+<!-- waiting seats -->
+<g transform="translate(420 350)"><path d="M0 0h225v52H0Z" fill="#34586b"/><path d="M0 0h225v13H0Z" fill="#87aeb3"/><path d="M12 50h16v76H12M198 50h16v76h-16" fill="#263e4d"/><path d="M80 0v50M150 0v50" stroke="#d6e2dd" stroke-width="5"/></g>
+<!-- target passport on check-in counter -->
+<g transform="translate(210 368) rotate(-9)"><rect width="82" height="108" rx="8" fill="#1d594e" stroke="#d9c18b" stroke-width="4"/><path d="M12 18h58M12 80h58" stroke="#e7d7a8" stroke-width="2"/><circle cx="41" cy="50" r="16" fill="none" stroke="#d7c18c" stroke-width="3"/><path d="M41 35v30M26 50h30" stroke="#d7c18c" stroke-width="2"/><text x="41" y="98" font-family="Arial" font-size="8" text-anchor="middle" fill="#ead9ad">PASSPORT</text></g>
+<!-- target suitcase -->
+<g transform="translate(380 394)"><ellipse cx="60" cy="144" rx="65" ry="10" fill="#293d48" opacity=".2"/><path d="M25 20V0q0-14 14-14h40q14 0 14 14v14" fill="none" stroke="#4a4b47" stroke-width="8"/><rect x="0" y="18" width="120" height="122" rx="15" fill="url(#suitcase)" stroke="#523c30" stroke-width="6"/><path d="M28 23v110M90 23v110" stroke="#e7b477" stroke-width="4" opacity=".7"/><path d="M0 72h120" stroke="#5c392a" stroke-width="5"/><rect x="45" y="67" width="30" height="13" rx="4" fill="#d9c29a"/><circle cx="24" cy="143" r="9" fill="#2b3438"/><circle cx="97" cy="143" r="9" fill="#2b3438"/></g>
+<!-- target hotel brochure on desk -->
+<g transform="translate(520 398) rotate(5)"><path d="M0 0h116v95H0Z" fill="#f5ecd8" stroke="#9c8b6d" stroke-width="4"/><path d="M8 8h100v42H8Z" fill="#477e78"/><path d="M12 38l20-20 18 14 22-22 30 28" fill="#d7bd86"/><text x="58" y="69" font-family="Arial" font-size="13" text-anchor="middle" fill="#4d5d58" font-weight="700">HOTEL</text><path d="M19 80h78" stroke="#9caa9c" stroke-width="3"/></g>
+<!-- target beach destination poster -->
+<g transform="translate(860 222)"><rect width="112" height="140" rx="5" fill="#f2e9d7" stroke="#7b7665" stroke-width="5"/><rect x="9" y="9" width="94" height="84" fill="#79b8c4"/><circle cx="80" cy="25" r="12" fill="#f6d07b"/><path d="M9 65q25-30 46-3q22-30 48 0v31H9Z" fill="#347c69"/><path d="M9 80q25-15 45 0t49 0v13H9Z" fill="#e5c58d"/><text x="56" y="117" font-family="Arial" font-size="13" text-anchor="middle" fill="#43534f" font-weight="700">BEACH</text><path d="M28 127h56" stroke="#9d9a87" stroke-width="3"/></g>
+<!-- passengers -->
+<g transform="translate(120 340)"><circle cx="0" cy="0" r="22" fill="#b47b5b"/><path d="M-23-4q8-27 30-20q14 4 15 21Z" fill="#3a302c"/><path d="M-34 26q34-18 68 0l14 104h-96Z" fill="#bd7c4e"/><path d="M-20 128h20v70h-20M10 128h20v70H10" fill="#33424b"/><path d="M-35 50l-27 53 12 9 35-45M34 50l30 42-12 12-34-37" fill="none" stroke="#b47b5b" stroke-width="12" stroke-linecap="round"/></g>
+<g transform="translate(690 350)"><circle cx="0" cy="0" r="22" fill="#9e6c53"/><path d="M-23-5q8-26 30-19q14 4 15 21Z" fill="#302a28"/><path d="M-34 26q34-18 68 0l14 104h-96Z" fill="#596f91"/><path d="M-20 128h20v70h-20M10 128h20v70H10" fill="#3c3938"/><path d="M-35 50l-27 53 12 9 35-45M34 50l30 42-12 12-34-37" fill="none" stroke="#9e6c53" stroke-width="12" stroke-linecap="round"/></g>
+<!-- luggage trolley and coffee kiosk props -->
+<g transform="translate(40 430)" fill="none" stroke="#536b71" stroke-width="7"><path d="M0 0h95l-12 65H15Z"/><circle cx="24" cy="78" r="10" fill="#263e49"/><circle cx="77" cy="78" r="10" fill="#263e49"/><path d="M95 0l25-35"/></g>
+<g transform="translate(920 410)"><rect width="90" height="100" rx="8" fill="#77513b"/><path d="M0 18h90" stroke="#d8ae6d" stroke-width="7"/><rect x="15" y="32" width="60" height="24" rx="4" fill="#d6e4db"/><path d="M30 57v20M60 57v20" stroke="#d6e4db" stroke-width="4"/></g>
+<rect width="1024" height="576" fill="none" stroke="#223c4b" stroke-width="18" opacity=".12"/>
+</svg>

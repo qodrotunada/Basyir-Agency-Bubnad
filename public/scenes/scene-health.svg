@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="Ruang pemeriksaan rumah sakit dengan dokter, perawat, alat kesehatan, dan obat">
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#e6f0ed"/><stop offset="1" stop-color="#b9d2d1"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#d4e0dc"/><stop offset="1" stop-color="#819c9b"/></linearGradient>
+ <linearGradient id="cabinet" x2="0" y2="1"><stop stop-color="#f9fbf8"/><stop offset="1" stop-color="#b4c8c5"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#bde0e6"/><stop offset="1" stop-color="#5e9ca9"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1024" height="576" fill="url(#wall)"/>
+<path d="M0 0H1024V82H0Z" fill="#eaf4f1"/>
+<path d="M0 82H1024V98H0Z" fill="#83aaa7"/>
+<!-- tiled floor -->
+<path d="M0 392H1024V576H0Z" fill="url(#floor)"/>
+<path d="M0 430H1024M0 490H1024M0 550H1024M120 392L55 576M310 392L275 576M510 392V576M710 392L745 576M900 392L975 576" stroke="#f1f6f2" stroke-opacity=".35" stroke-width="3"/>
+<!-- window and wall panels -->
+<rect x="55" y="105" width="220" height="165" rx="7" fill="#d6e5e0" stroke="#829f9b" stroke-width="8"/>
+<rect x="68" y="118" width="194" height="139" fill="url(#glass)"/>
+<path d="M165 118v139M68 185h194" stroke="#eaf5f2" stroke-width="8"/>
+<path d="M80 238q30-65 65-25q28-57 58-12q22-25 48 7v49H80Z" fill="#6d9989" opacity=".75"/>
+<rect x="312" y="110" width="230" height="170" rx="7" fill="#edf5f1" stroke="#8aa9a4" stroke-width="7"/>
+<rect x="327" y="125" width="200" height="140" fill="#c2d9d5"/>
+<path d="M327 190h200M425 125v140" stroke="#eaf3f0" stroke-width="6"/>
+<!-- hospital sign -->
+<g transform="translate(690 92)"><rect width="278" height="84" rx="9" fill="#1d5361" stroke="#eaf4ef" stroke-width="7"/><rect x="18" y="17" width="46" height="46" rx="8" fill="#e8f4ef"/><path d="M41 25v30M26 40h30" stroke="#d65a50" stroke-width="9" stroke-linecap="round"/><text x="82" y="54" font-family="Arial,sans-serif" font-size="31" font-weight="700" fill="#f7fbf7">HOSPITAL</text></g>
+<!-- wall chart -->
+<g transform="translate(80 290)"><rect width="180" height="88" rx="6" fill="#f9fbf8" stroke="#88a9a4" stroke-width="5"/><text x="90" y="23" text-anchor="middle" font-family="Arial" font-size="12" fill="#54716d" font-weight="700">HEALTH CHECK</text><path d="M30 55h120" stroke="#c8d9d3" stroke-width="3"/><path d="M45 55l12-20 13 20 12-12 14 12" fill="none" stroke="#d75f5b" stroke-width="4"/></g>
+<!-- medicine cabinet -->
+<g transform="translate(840 205)"><rect width="140" height="170" rx="8" fill="url(#cabinet)" stroke="#73938f" stroke-width="7"/><path d="M0 56h140M0 112h140" stroke="#8aa9a3" stroke-width="5"/><g fill="#dbe8de" stroke="#8aa9a3" stroke-width="2"><rect x="15" y="12" width="26" height="34" rx="5"/><rect x="55" y="13" width="26" height="33" rx="5"/><rect x="95" y="12" width="28" height="34" rx="5"/><rect x="18" y="70" width="35" height="31" rx="5"/><rect x="70" y="69" width="42" height="32" rx="5"/><rect x="15" y="127" width="40" height="29" rx="5"/><rect x="75" y="126" width="43" height="30" rx="5"/></g></g>
+<!-- examination bed -->
+<g transform="translate(50 380)"><ellipse cx="225" cy="144" rx="235" ry="18" fill="#324a4b" opacity=".16"/><path d="M40 18H430V74H40Z" fill="#edf3ee" stroke="#789895" stroke-width="7"/><path d="M62 72h22v98H62M380 72h22v98h-22" fill="#6b8581"/><path d="M75 18q80-60 150 0" fill="#f9fbf7" stroke="#b5cbc6" stroke-width="5"/><path d="M110 21h230" stroke="#d5e2dd" stroke-width="6"/></g>
+<!-- target thermometer on front table -->
+<g transform="translate(275 422) rotate(-12)"><ellipse cx="35" cy="46" rx="44" ry="10" fill="#314849" opacity=".2"/><rect x="0" y="0" width="76" height="24" rx="12" fill="#f8faf5" stroke="#5d7e7b" stroke-width="4"/><rect x="12" y="8" width="45" height="8" rx="4" fill="#b7d7d4"/><circle cx="63" cy="12" r="6" fill="#d75b56"/><path d="M17 4v16" stroke="#d4e2dd" stroke-width="2"/></g>
+<!-- target prescription sheet -->
+<g transform="translate(414 392) rotate(7)"><path d="M0 0h108v118H0Z" fill="#fffdf5" stroke="#8c9f99" stroke-width="4"/><path d="M14 20h78M14 38h58M14 56h76M14 74h48" stroke="#8ca7a0" stroke-width="4" stroke-linecap="round"/><path d="M60 93q15-20 30-3q-14 14-30 3Z" fill="none" stroke="#c35b55" stroke-width="3"/></g>
+<!-- target medicine bottle -->
+<g transform="translate(570 405)"><ellipse cx="35" cy="66" rx="42" ry="9" fill="#304747" opacity=".18"/><rect x="7" y="10" width="58" height="55" rx="10" fill="#d7eee0" stroke="#648b7e" stroke-width="4"/><rect x="17" y="0" width="38" height="16" rx="4" fill="#f2f4e7" stroke="#648b7e" stroke-width="3"/><rect x="15" y="30" width="42" height="21" rx="3" fill="#f8f5df"/><path d="M36 34v13M29 40h14" stroke="#d85f57" stroke-width="4"/></g>
+<!-- nurse figure target -->
+<g transform="translate(740 265)"><ellipse cx="0" cy="210" rx="63" ry="12" fill="#334c4a" opacity=".18"/><path d="M-43 65q42-30 86 0l20 124h-126Z" fill="#f2f7f2" stroke="#91b4ad" stroke-width="4"/><path d="M-23 74v114M23 74v114" stroke="#b8d4cb" stroke-width="5"/><path d="M-18 76l18 22 18-22" fill="none" stroke="#7fa69b" stroke-width="5"/><circle cx="0" cy="32" r="29" fill="#b97c5e"/><path d="M-30 28q5-35 34-34q26 3 27 34l-12-9q-20 5-49 9Z" fill="#352b28"/><path d="M-34 14q34-27 68 0" fill="#f7faf5" stroke="#90b0a9" stroke-width="4"/><path d="M-9 32h18" stroke="#734a3e" stroke-width="3" stroke-linecap="round"/><path d="M-45 93q-27 38-20 69l18 8 26-53M45 93q27 38 20 69l-18 8-26-53" fill="#b97c5e"/><path d="M-10 119h20v30h-20Z" fill="#d85f57"/><path d="M0 123v22M-10 134h20" stroke="#fff" stroke-width="4"/></g>
+<!-- doctor seated at left -->
+<g transform="translate(350 245)"><circle cx="0" cy="25" r="25" fill="#a96f55"/><path d="M-25 21q4-30 29-27q20 2 23 25Z" fill="#352c29"/><path d="M-40 56q39-23 80 0l18 111h-116Z" fill="#edf4ef" stroke="#9db8b0" stroke-width="4"/><path d="M-18 65l18 25 18-25" fill="none" stroke="#7e9c96" stroke-width="5"/><path d="M-6 92q-15 20 0 40q15-20 0-40" fill="none" stroke="#547c78" stroke-width="4"/><path d="M-25 168h23v58h-23M7 168h23v58H7" fill="#425e5b"/></g>
+<!-- stethoscope and small tools on counter -->
+<g transform="translate(620 340)" fill="none" stroke="#355e62" stroke-width="6"><path d="M0 0v36q0 42 33 42t33-42V0"/><circle cx="33" cy="83" r="12" fill="#b6d2cc"/><path d="M65 0v22"/></g>
+<g transform="translate(100 500)"><rect width="90" height="34" rx="7" fill="#75948b"/><rect x="10" y="-8" width="70" height="18" rx="6" fill="#d4e5dc"/></g>
+<rect width="1024" height="576" fill="none" stroke="#274a4b" stroke-width="18" opacity=".12"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 576" role="img" aria-label="Laboratorium komputer dengan siswa, monitor, keyboard, router, dan perangkat digital">
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#dce6f0"/><stop offset="1" stop-color="#9fb8ca"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#9eabb4"/><stop offset="1" stop-color="#34495b"/></linearGradient>
+ <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#143b5b"/><stop offset="1" stop-color="#071a2c"/></linearGradient>
+ <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#b67a4d"/><stop offset="1" stop-color="#65432e"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1024" height="576" fill="url(#wall)"/>
+<path d="M0 0H1024V62H0Z" fill="#263f57"/>
+<path d="M0 62H1024V78H0Z" fill="#e4edf0"/>
+<!-- window panels -->
+<rect x="40" y="95" width="230" height="190" rx="7" fill="#d7edf0" stroke="#617d91" stroke-width="8"/><path d="M155 95v190M40 190h230" stroke="#6b8ba0" stroke-width="7"/><path d="M50 262q50-75 100-28q50-55 110 0v42H50Z" fill="#7da69d"/>
+<!-- wall shelves and posters -->
+<g transform="translate(320 105)"><rect width="210" height="172" rx="7" fill="#edf2f0" stroke="#7f96a5" stroke-width="6"/><rect x="12" y="12" width="186" height="148" fill="#d7e4e6"/><path d="M28 40h155M28 80h155M28 120h155" stroke="#9bb2b8" stroke-width="4"/><g fill="#53758c"><rect x="34" y="22" width="26" height="15"/><rect x="68" y="22" width="35" height="15"/><rect x="112" y="22" width="24" height="15"/><rect x="145" y="22" width="32" height="15"/></g></g>
+<g transform="translate(580 105)"><rect width="180" height="160" rx="7" fill="#f0f3ed" stroke="#7f96a5" stroke-width="6"/><rect x="12" y="12" width="156" height="136" fill="#234c65"/><path d="M25 110l35-45 28 18 34-51 30 27" fill="none" stroke="#63c4d1" stroke-width="6"/><circle cx="63" cy="65" r="7" fill="#f0c86a"/><circle cx="122" cy="32" r="7" fill="#f0c86a"/><text x="90" y="135" font-family="Arial" font-size="12" text-anchor="middle" fill="#edf6f3">NETWORK MAP</text></g>
+<!-- floor -->
+<path d="M0 390H1024V576H0Z" fill="url(#floor)"/>
+<path d="M0 440H1024M0 510H1024M150 390L110 576M400 390L390 576M660 390L700 576M880 390L960 576" stroke="#dbe5e5" stroke-opacity=".2" stroke-width="3"/>
+<!-- long computer desks -->
+<path d="M0 320H1024V375H0Z" fill="url(#desk)" stroke="#523c2e" stroke-width="7"/>
+<path d="M0 370H1024V392H0Z" fill="#51392b"/>
+<path d="M65 375h20v155H65M930 375h20v155h-20" fill="#3d302a"/>
+<!-- back computer monitors -->
+<g transform="translate(80 235)"><rect width="155" height="96" rx="7" fill="#1d2b38" stroke="#526c7d" stroke-width="6"/><rect x="10" y="10" width="135" height="75" fill="#1d5877"/><path d="M18 62l35-34 24 20 30-25 30 20" fill="none" stroke="#65cbd0" stroke-width="4"/><path d="M72 97v22M40 120h65" stroke="#526c7d" stroke-width="7"/></g>
+<g transform="translate(790 235)"><rect width="150" height="96" rx="7" fill="#1d2b38" stroke="#526c7d" stroke-width="6"/><rect x="10" y="10" width="130" height="75" fill="#1d5877"/><path d="M18 60h110M18 45h75M18 30h95" stroke="#65cbd0" stroke-width="4"/><path d="M70 97v22M40 120h100" stroke="#526c7d" stroke-width="7"/></g>
+<!-- target main monitor -->
+<g transform="translate(410 178)"><ellipse cx="105" cy="210" rx="130" ry="15" fill="#1d2b36" opacity=".25"/><rect x="0" y="0" width="210" height="150" rx="10" fill="#202c37" stroke="#718a98" stroke-width="8"/><rect x="12" y="12" width="186" height="126" fill="url(#screen)"/><path d="M26 102l35-50 32 25 31-42 55 54" fill="none" stroke="#4dd1c7" stroke-width="6"/><circle cx="93" cy="77" r="8" fill="#e6c26c"/><path d="M105 150v39M65 192h80" stroke="#455b68" stroke-width="12" stroke-linecap="round"/><path d="M24 30h90M24 46h60" stroke="#8ab8c0" stroke-width="3" opacity=".7"/></g>
+<!-- target keyboard -->
+<g transform="translate(430 402) skewX(-8)"><path d="M0 0h185l22 62H-22Z" fill="#2b3943" stroke="#9eb1b6" stroke-width="4"/><g fill="#d5e0dd"><path d="M10 10h20v10H10zM38 10h20v10H38zM66 10h20v10H66zM94 10h20v10H94zM122 10h20v10h-20zM150 10h20v10h-20zM4 28h20v10H4zM32 28h20v10H32zM60 28h20v10H60zM88 28h20v10H88zM116 28h20v10h-20zM144 28h20v10h-20z"/></g><path d="M54 47h70" stroke="#d5e0dd" stroke-width="5"/></g>
+<!-- target wifi router on shelf -->
+<g transform="translate(835 135)"><rect x="0" y="25" width="118" height="54" rx="9" fill="#e6ece8" stroke="#506b78" stroke-width="5"/><path d="M22 25L12-10M96 25l10-35" stroke="#405f6d" stroke-width="6" stroke-linecap="round"/><circle cx="28" cy="53" r="5" fill="#5fbd8d"/><circle cx="47" cy="53" r="5" fill="#5fbd8d"/><circle cx="66" cy="53" r="5" fill="#e0bd63"/><path d="M40 5q20-20 40 0M30-7q30-32 60 0" fill="none" stroke="#477f8b" stroke-width="4"/></g>
+<!-- target USB/download device -->
+<g transform="translate(210 425) rotate(-15)"><rect x="0" y="0" width="90" height="32" rx="8" fill="#d5dfe0" stroke="#3d5969" stroke-width="4"/><rect x="72" y="8" width="27" height="16" rx="2" fill="#9ba9ab" stroke="#3d5969" stroke-width="3"/><path d="M20 8h42" stroke="#6f9ba5" stroke-width="5"/><path d="M43 13v12m-7-6 7 7 7-7" fill="none" stroke="#2c7180" stroke-width="3"/></g>
+<!-- target smartphone app -->
+<g transform="translate(760 412) rotate(8)"><rect width="76" height="128" rx="12" fill="#1e2c38" stroke="#829aa5" stroke-width="5"/><rect x="8" y="14" width="60" height="98" rx="5" fill="#c8e0e2"/><rect x="16" y="24" width="20" height="20" rx="5" fill="#4d9a89"/><rect x="42" y="24" width="18" height="20" rx="5" fill="#d3a65d"/><rect x="16" y="51" width="20" height="20" rx="5" fill="#5c8fb5"/><rect x="42" y="51" width="18" height="20" rx="5" fill="#c56b59"/><path d="M20 88h37" stroke="#6e9299" stroke-width="4"/></g>
+<!-- student figures -->
+<g transform="translate(280 245)"><circle cx="0" cy="0" r="25" fill="#a86f55"/><path d="M-25-5q5-28 29-26q18 2 22 24Z" fill="#302b2b"/><path d="M-43 33q43-24 86 0l15 112h-116Z" fill="#4e6d83"/><path d="M-26 143h23v77h-23M8 143h23v77H8" fill="#3a3432"/><path d="M-43 58l-40 55 14 12 46-48M43 58l34 45-12 14-40-38" fill="none" stroke="#a86f55" stroke-width="13" stroke-linecap="round"/></g>
+<g transform="translate(700 260)"><circle cx="0" cy="0" r="25" fill="#b57d5c"/><path d="M-28-3q7-31 33-25q20 3 22 25" fill="#29292b"/><path d="M-45 32q45-25 90 0l16 112h-122Z" fill="#c0a46e"/><path d="M-25 142h24v78h-24M8 142h24v78H8" fill="#34353a"/><path d="M-45 58l-35 52 15 13 42-48M45 58l34 46-15 13-40-40" fill="none" stroke="#b57d5c" stroke-width="13" stroke-linecap="round"/></g>
+<!-- headphones, mouse, cable, books -->
+<g transform="translate(340 420)"><path d="M0 30v-18q0-40 35-40t35 40v18" fill="none" stroke="#243b4b" stroke-width="8"/><rect x="-7" y="20" width="18" height="34" rx="8" fill="#253d4b"/><rect x="59" y="20" width="18" height="34" rx="8" fill="#253d4b"/></g>
+<g transform="translate(640 435)"><ellipse cx="0" cy="0" rx="18" ry="28" fill="#d6dfdc" stroke="#4b6674" stroke-width="4"/><path d="M0-23v19" stroke="#4b6674" stroke-width="3"/></g>
+<g transform="translate(900 500)"><path d="M0 0h90v12H0zM5 14h80v10H5zM-2 27h95v12H-2z" fill="#b77b4d"/><path d="M10 0v12M74 14v10M20 27v12" stroke="#e4bf87" stroke-width="2"/></g>
+<rect width="1024" height="576" fill="none" stroke="#1e354a" stroke-width="18" opacity=".12"/>
+</svg>
